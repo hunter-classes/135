@@ -1,15 +1,36 @@
 * CSCI 136 - Daedalus
-| Instructor   | Mike Zamansky                           |
-| Email        | mz631@hunter.cuny.edu                   |
-| Office       | 1001K Hunter North                      |
-| Office Hours | 11:00 - 12:00 Mon/Thu or by appointment |
+| Instructor   | Mike Zamansky         |
+| Email        | mz631@hunter.cuny.edu |
+| Office       | 1001K Hunter North    |
+| Office Hours | By appointment        |
 
 * Main Syllabus Links
-- [[https://maryash.github.io/135/2020_spring.html][Main 135/136 page]]
+- [[https://tong-yee.github.io/135/2020_fall.html][Main 135 lecture page]]
 
+* Getting help
+
+Use the cohort mailing lists - daedalus2020 for cohort specific and
+daedalus to reach the entire cohort and our Slack channels. Here is a
+link to notes on asking for CS help in general. You can also drop in
+to any of the TA’s open sessions or the tutoring sessions listed on
+the [[- [[https://tong-yee.github.io/135/2020_fall.html]\][Main ][main 135 lecture]] page.
 
 * Lab instructions:
-** Coming soon
+This recitation *will not* be using Gradescope for our labs. Instead,
+we are using GitHub Classroom. An email will be sent to the
+daedalus2020 mailing list with a link when each lab is
+released. Students should:
+
+1. Accept the assignment
+2. Clone the repo to their local machine.
+3. Complete the lab as instructed
+
+Labs will be graded on the instructors Linux computer so you should be
+sure that your solutions will compile and run as instructed on that
+platform. Also, only include source files and other files explicitly
+asked for in your repository. Do not add executable files (a.out, for
+instance) or object (.o) files to the repository.
+
 
 * Emacs links
 - [[https://www.masteringemacs.org/reading-guide][Mastering Emacs reading guide]]
