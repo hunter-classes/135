@@ -31,6 +31,9 @@ platform. Also, only include source files and other files explicitly
 asked for in your repository. Do not add executable files (a.out, for
 instance) or object (.o) files to the repository.
 
+*Due Dates:* Unless otherwise noted, labs will be released on Mondays
+ after class and will be due the Friday morning of that week at
+ 8:00am.
 
 * Emacs links
 - [[https://www.masteringemacs.org/reading-guide][Mastering Emacs reading guide]]
