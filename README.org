@@ -1,4 +1,5 @@
-* CSCI 136 - Daedalus
+* CSCI 135 - Daedalus
+
 | Meets        | Monday 9:45 - 11:35   |
 | Instructor   | Mike Zamansky         |
 | Email        | mz631@hunter.cuny.edu |
