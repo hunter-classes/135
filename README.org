@@ -15,7 +15,7 @@ Use the cohort mailing lists - daedalus2020 for cohort specific and
 daedalus to reach the entire cohort and our Slack channels. Here is a
 link to notes on asking for CS help in general. You can also drop in
 to any of the TA’s open sessions or the tutoring sessions listed on
-the [[- [[https://tong-yee.github.io/135/2020_fall.html]\][Main ][main 135 lecture]] page.
+the [[https://tong-yee.github.io/135/2020_fall.html][main 135 lecture]] page.
 
 * Lab instructions:
 This recitation *will not* be using Gradescope for our labs. Instead,
