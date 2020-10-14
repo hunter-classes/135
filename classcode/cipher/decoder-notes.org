@@ -1,0 +1,27 @@
+
+* Make a 26-space vector with the real english letter frequencies
+  
+  freq = [.017,.044,.052,.032,.028,.04 etc.]
+  freq[0] is the % 'a' appears in a sentence
+  freq[1] is the % 'b' appears etc.
+
+* write a distance formula function that works on 26 space vectors
+
+
+* for each rotation of our encoded sentence:
+  1. make a vector for that rotations frequenceis
+  2. calc the distance between that and the freq vector (form above)
+
+  the vector that's closet to freq is probably our decoded sentence.
+
+
+example:
+
+If our rotation was:  "aabbbcccce"
+We have 10 letters
+the vector for the above string is:
+[.2, .3, .4, 0, .1, 0,0,0,0,0,0,0 etc up to 26 letters]
+
+compare that with freq above and check to see if it's the closest.
+
+
