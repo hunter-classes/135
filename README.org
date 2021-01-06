@@ -39,16 +39,26 @@ the [[https://tong-yee.github.io/135/2020_fall.html][main 135 lecture]] page.
   include additional material. 
 - Assuming all labs are assigned and completed, the lowest grade will
   not be included in calculating the lab average.
-
+- If a lab cannot be completed on time, you are expected to discuss
+  this with the instructor prior to the due date/time. Under some
+  circumstances the instructor might accept work submitted or updated
+  after the due date/time.
 
 ** Differences from the non Daedalus sections 
 
 - We will *not* be using Gradescope for our labs. That said, you are
   expected to use *Gradescope* and follow all requirements for the
   main lecture. So, while you will use GitHub for our labs, you will
-  submit projects, take tests, complete homework assignments following
-  the main 135 instructors directions.
+  submit projects, take tests, complete homework assignments and
+  problem sets following the main 135 instructors directions.
 
+
+** Cameras during synchronous classes 
+
+Students are asked to have their cameras on during synchronous classes
+as this makes the class feel more like a community. If a student does
+not wish or is unable to comply with this request they must disucss
+this with the instructor the instructor 
 
 * Lab instructions 
 
