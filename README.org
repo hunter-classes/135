@@ -1,51 +1,62 @@
 * CSCI 135 - Daedalus
 
-| Meets        | Monday 9:45 - 11:35   |
-| Instructor   | Mike Zamansky         |
-| Email        | mz631@hunter.cuny.edu |
-| Office       | 1001K Hunter North    |
-| Office Hours | By appointment        |
+| Meets        | Monday Thu 8:35 - 9:25                      |
+| Instructor   | Mike Zamansky                               |
+| Email        | mz631@hunter.cuny.edu                       |
+| Office       | 1001K Hunter North                          |
+| Office Hours | By appointment                              |
+| Zoom Link    | https://huntercollege.zoom.us/j/97672912869 |
 
-* TA Schedule
-Below is the Teaching Assistant office schedule. 
+* Main Syllabus Link
 
-Some sessions will be drop in for general help and sometimes there
-will be specific topics and materials that the teaching assistants
-will go over. If the TA is running an open session on a topic, they
-will announce it in the TA stream for the course on Zulip with a link
-to join (Zoom, Google Meet etc.). If you're dropping in and there
-isn't a session already running, place a message on the TA Zulip
-stream for the course and the TA. Support won't always be via live
-meeting, it might also happen through the Zulip chat. 
-
-
-| Day       | Time            | TA     | Class |
-|-----------+-----------------+--------+-------|
-| Monday    | 02:00pm - 03:00 | Kyra   | Mixed |
-| Tuesday   | 01:00pm - 02:00 | Dan    |   127 |
-| Tuesday   | 02:00pm - 03:00 | Dan    |   135 |
-| Wednesday | 02:00pm - 03:00 | Ian    |   127 |
-| Thursday  | 01:30pm - 02:00 | Jungah |   127 |
-| Friday    | 11:00am - 12:00 | Anne   |   135 |
-| Saturday  |                 |        |       |
-| Sunday    | 08:30pm - 9:00  | Jungah |   135 |
-
-* Main Syllabus Links
 - [[https://tong-yee.github.io/135/2020_fall.html][Main 135 lecture page]]
 
 * Getting help
 
-Use the cohort mailing lists - daedalus2020 for cohort specific and
-daedalus to reach the entire cohort and our Slack channels. Here is a
-link to notes on asking for CS help in general. You can also drop in
-to any of the TA’s open sessions or the tutoring sessions listed on
+Use Zulip for help. These streams in particular:
+
+- #135 this goes to everyone in our section
+- #2020 goes to all members of the current first year Daedalus cohort
+- #general the Daedalus members
+
+There are also tutoring sessions listed on
 the [[https://tong-yee.github.io/135/2020_fall.html][main 135 lecture]] page.
 
-* Lab instructions:
+* Class policies and grading
+
+** Grading
+
+- Labs will be graded on a 0 - 10 scale.
+- Unless otherwise noted labs will be released Mondays after class and
+  will be due Friday of the same week at 8:00am.
+- Lab specifications are different for our recitation than for the
+  other recitations. Specifics will be written in the lab
+  assignments. 
+- Most labs will be completed outside of class time as homework
+  assignments however some will take place during or will replace some
+  synchronous class time.
+- Our section will include additional labs and some of the labs will
+  include additional material. 
+- Assuming all labs are assigned and completed, the lowest grade will
+  not be included in calculating the lab average.
+
+
+** Differences from the non Daedalus sections 
+
+- We will *not* be using Gradescope for our labs. That said, you are
+  expected to use *Gradescope* and follow all requirements for the
+  main lecture. So, while you will use GitHub for our labs, you will
+  submit projects, take tests, complete homework assignments following
+  the main 135 instructors directions.
+
+
+* Lab instructions 
+
 This recitation *will not* be using Gradescope for our labs. Instead,
-we are using GitHub Classroom. An email will be sent to the
-daedalus2020 mailing list with a link when each lab is
-released. Students should:
+we are using GitHub Classroom. An email will be posted on Zulip with a
+link when each lab is released. 
+
+Students should:
 
 1. Accept the assignment
 2. Clone the repo to their local machine.
