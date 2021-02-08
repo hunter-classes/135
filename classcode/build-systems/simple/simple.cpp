@@ -11,7 +11,7 @@ int smaller(int a, int b){
 
 int main(int argc, char *argv[])
 {
-  int a = 5;
+  int a = 50;
   int b = 10;
 
   int c = smaller(a,b);
