@@ -1,4 +1,3 @@
-// this define must go ABOVE the include doctest line
 
 #include "doctest.h" // "" means look to the local folder for include files
 #include "fact.h"
