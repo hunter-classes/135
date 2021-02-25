@@ -17,7 +17,6 @@ fact.o: fact.cpp
 tests.o: tests.cpp fact.h
 	g++ -c tests.cpp
 
-	g++ -c tests-fact.cpp
 
 clean:
 	rm -f tests.o main.o fact.o
