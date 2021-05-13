@@ -27,12 +27,12 @@ int f3(int a){
 }
 
 int f2(int a){
-  int x;
-  x = a;
-  if (x%2==0)
-    return f2(x+1);
+  int z;
+  z = a;
+  if (z%2==0)
+    return f2(z+1);
   else
-    return f3(x);
+    return f3(z);
   
 }
 
