@@ -1,4 +1,4 @@
-* CSCI 135 - Daedalus
+* CSCI 13500 - Daedalus
 
 | Meets        | Monday Thursday 8:35 - 9:25                                                |
 | Instructor   | Mike Zamansky                                                              |
