@@ -21,7 +21,7 @@ Use Zulip for help. These streams in particular:
 - #general the Daedalus members
 
 There are also tutoring sessions listed on
-the [[https://tong-yee.github.io/135/2020_fall.html][main 135 lecture]] page.
+the [[https://tong-yee.github.io/135/2021_fall.html][main 135 lecture]] page.
 
 * Class policies and grading
 
