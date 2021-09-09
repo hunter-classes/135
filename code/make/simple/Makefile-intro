@@ -1,0 +1,26 @@
+# This is a Makefile
+# anything from a # on to the end of line is a comment
+#
+# target: dependencies
+# 	command to go from dependencies to target <-- note this is tabbed
+hello: hello.cpp
+	g++ -o hello hello.cpp
+
+# notice that this target has no dependencies 
+dir:
+	@ls
+
+# the @ in front prevents the command itself from displaying
+help:
+	@echo "This is a help line"
+	@echo "You'd put instructions here"
+
+
+top: left right
+	@echo "this is the top of this target"
+
+left:
+	@echo "This is the left target"
+
+right:
+	@echo "This is the right target"
