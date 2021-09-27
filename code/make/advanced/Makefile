@@ -1,14 +1,13 @@
 OBJECTS=main.o mymath.o
-CXXFLAGS=-Wall -Wpedantic
+CXX=g++
+CXXFLAGS=-Wall
 LDFLAGS=-lm
 main: main.o mymath.o
-	g++ -o main $(LDFLAGS) $(OBJECTS)
+	$(CXX) -o main $(LDFLAGS) $(OBJECTS)
 
 main.o: main.cpp mymath.h
-	g++ -c $(CXXFLAGS) main.cpp 
 
 mymath.o: mymath.cpp mymath.h
-	g++ -c $(CXXFLAGS) mymath.cpp
 
 clean:
 	rm -f $(OBJECTS)
