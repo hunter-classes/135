@@ -21,7 +21,7 @@
    branch named *newbranch*
 3. Type ~git checkout newbranch~ to switch into the branch *newbranch*
 4. Use the ~git checkout~ command to switch between the two
-branches. While there, look at the contents of file *samplefile* to see the
+   branches. While there, look at the contents of file *samplefile* to see the
    differences.
 5. Make sure you're in the *master* branch using ~git checkout master~ and then use
    git diff to see the  differences between the branches using
