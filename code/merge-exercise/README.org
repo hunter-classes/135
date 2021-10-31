@@ -11,7 +11,8 @@
    will:
    - If there is an existing git repo in this dorectory, remove it.
    - set up this directory as a local git repo
-   - simulate changes to the repo to create a merge situation
+   - simulate changes to the repo to create a merge situation in a
+     file named *samplefile*.
 ** Doing the merge
 1. Type ~git status~ just to see the status of the repo
 2. Type ~git branch~ to show the branches
@@ -20,15 +21,15 @@
    branch named *newbranch*
 3. Type ~git checkout newbranch~ to switch into the branch *newbranch*
 4. Use the ~git checkout~ command to switch between the two
-   branches. While there, look at the contents of file *a* to see the
+branches. While there, look at the contents of file *samplefile* to see the
    differences.
 5. Make sure you're in the *master* branch using ~git checkout master~ and then use
    git diff to see the  differences between the branches using
-   ~git diff newbranch a~.
+   ~git diff newbranch samplefile~.
 6. You will now merge *newbranch* into *master*. Do this by typing
    ~git merge newbranch~.
 7. If it can automatically merge it will but in this case there's a
-   *merge conflict*. The file *a* should look like this:
+   *merge conflict*. The file *samplefile* should look like this:
    #+begin_src
    <<<<<<< HEAD
    echo "Hello World!"
@@ -46,23 +47,18 @@
    
    #+begin_src 
    <<<<<<< HEAD
-   echo "Hello World!"
-   hello hello
-    worddddddddd
    ||||||| b0dc4bb
-   echo Hello
    =======
-   echo "Hello World"
    >>>>>>> newbranch
    #+end_src
    
    are git markers telling you the differences. In a larger more
    complicated merge there could be multiple marker sets. Edit the file
    manually to get rid of those markers and to make the changes that
-   reflect what you want *a* to look like.
+   reflect what you want *samplefile* to look like.
 8. Finally, commit the merge using ~git commit -a -m "fixed merge
-   conflict"~. Note that the commit is for all using *-a* not just the
-   file *a*.
+   conflict"~. Note that the commit is for all using -a* not just the
+   single file *samplefile*.
 
 9. All done.
 
