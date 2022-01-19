@@ -1,7 +1,7 @@
 * CSCI 13500 - Daedalus
 
 | Meets        | Monday Thursday 8:35 - 9:25                                                |
-| Room         | Hunter North 10001C   |
+| Room         | Hunter North 10001B  |
 | Instructor   | Mike Zamansky                                                              |
 | Email        | mz631@hunter.cuny.edu                                                      |
 | Office       | 1001K Hunter North                                                         |
@@ -10,7 +10,8 @@
 
 * Main Syllabus Link
 
-- [[https://tong-yee.github.io/135/2021_fall.html][Main 135 lecture page]]
+- [[https://tong-yee.github.io/135/2021_fall.html][Main 135 lecture page]] <-- this is a link to the fall page. It will
+  be updated.
 
 * Getting help
 
