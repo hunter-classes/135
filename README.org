@@ -43,7 +43,10 @@ the [[https://tong-yee.github.io/135/2021_fall.html][main 135 lecture]] page.
 - If a lab cannot be completed on time, you are expected to discuss
   this with the instructor prior to the due date/time. Under some
   circumstances the instructor might accept work submitted or updated
-  after the due date/time.
+  after the due date/time. Otherwise, late labs will not be accepted
+- Labs will be compiled, run, and tested under Linux. It is the students 
+  responsiblity to ensure that their labs work on this platform.
+- Labs will not be regraded.
 
 ** Differences from the non Daedalus sections 
 
