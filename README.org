@@ -10,7 +10,7 @@
 
 * Main Syllabus Link
 
-- [[https://tong-yee.github.io/135/2021_fall.html][Main 135 lecture page]]
+- [[https://tong-yee.github.io/135/2022_spring.html][Main 135 lecture page]]
 
 * Getting help
 
