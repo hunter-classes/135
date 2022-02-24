@@ -1,14 +1,8 @@
-#include <iostream>
+#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+
+#include "fact.h"
 #include "doctest.h"
 
-int fact(int n){
-  if (n <= 1){
-    return 1;
-  } else {
-    return n * fact(n-1);
-  }
-  
-}
 
 TEST_CASE("Factorial Base Cases"){
   CHECK(fact(0) == 1);
