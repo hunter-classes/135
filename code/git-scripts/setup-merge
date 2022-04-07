@@ -1,0 +1,25 @@
+#!/bin/bash
+yes | rm -r .git
+git init
+touch a
+git add a
+echo "echo Hello" > a
+git commit -am 'initial'
+git checkout -b newbranch
+echo "echo \"Hello World\"" > a
+git commit -am 'first commit on new_branch'
+git checkout master
+echo "echo \"Hello World!\"" > a
+git commit -am 'second commit on master'
+#git merge newbranch
+cat >> a <<EOF
+hello hello
+EOF
+git commit -am "third commit newbranch"
+git checkout master
+cat >> a <<EOF
+ worddddddddd
+EOF
+git commit -am "third commit newbranch"
+
+
