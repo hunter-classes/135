@@ -7,5 +7,5 @@ logger.o: logger.cpp
 clean:
 	rm -f logger.o
 
-debug: CXXFLAGS := $(CXXFLAGS) -DDEBUG=1
+debug: CXXFLAGS := $(CXXFLAGS) -DDEBUG=1 -g 
 debug: logger 
