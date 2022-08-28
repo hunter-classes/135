@@ -10,7 +10,7 @@
 
 * Main Syllabus Link
 
-- [[https://tong-yee.github.io/135/2022_spring.html][Main 135 lecture page]] <-- this is currently last spring's page. 
+- [[https://maryash.github.io/135/index.html][Main 135 page]]
 
 
 * Getting help
