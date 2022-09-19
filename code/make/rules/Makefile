@@ -1,4 +1,4 @@
-OBJECTS=main.o mathfuncs.o
+OBJECTS=main.o mathfuncs.o 
 CXX=g++
 LDFLAGS=-lm
 CXXFLAGS=-Wall -Wpedantic
