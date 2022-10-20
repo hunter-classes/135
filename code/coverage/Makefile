@@ -7,7 +7,7 @@ tests: tests.o fact.o
 	g++ -o tests --coverage -g -O0 tests.o fact.o
 	./tests
 	ggcovr
-	ggcover --html-details coverage.html
+	ggcovr --html-details coverage.html
 
 tests.o: tests.cpp fact.h
 
