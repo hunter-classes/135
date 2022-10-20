@@ -6,8 +6,8 @@ main: main.o fact.o
 tests: tests.o fact.o
 	g++ -o tests --coverage -g -O0 tests.o fact.o
 	./tests
-	ggcovr
-	ggcovr --html-details coverage.html
+	gcovr
+	gcovr --html-details coverage.html
 
 tests.o: tests.cpp fact.h
 
