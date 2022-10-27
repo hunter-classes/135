@@ -17,5 +17,5 @@ TEST_CASE("Factorial of small numbers"){
 
 TEST_CASE("Factorial of large numbers"){
   CHECK(fact(5) == 120);
-  CHECK(fact(505) == 100);
+  CHECK(fact(505) == 100);x
 }
