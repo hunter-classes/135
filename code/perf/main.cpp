@@ -35,8 +35,7 @@ int mode(std::vector<int> v){
   int freq_so_far = freq(v,v[0]);
 
   for (int i = 1; i < v.size();i++){
-    // int f = freq(v,v[i]);
-    int f = std::count(v.begin(),v.end(),v[i]);
+    int f = freq(v,v[i]);
     if (f>freq_so_far){
       freq_so_far = f;
       mode_so_far = v[i];
