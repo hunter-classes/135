@@ -2,6 +2,7 @@
 #include <vector>
 #include <cstdlib>
 #include  <algorithm>
+
 void print_vector(std::vector<int> v){
   for (auto i : v) {
     std::cout << i << ", ";
@@ -23,7 +24,7 @@ std::vector<int> build_vector(int size){
 
 int freq(std::vector<int> v, int val){
   int count = 0;
-  for (int i : v){
+  for (auto i : v){
     if (i==val)
       count++;
   }
@@ -32,10 +33,10 @@ int freq(std::vector<int> v, int val){
 
 int mode(std::vector<int> v){
   int mode_so_far = v[0];
-  int freq_so_far = freq(v,v[0]);
+  int freq_so_far = std::count(v.begin(),v.end(),v[0]);
 
   for (int i = 1; i < v.size();i++){
-    int f = freq(v,v[i]);
+    int f = std::count(v.begin(),v.end(),v[i]);
     if (f>freq_so_far){
       freq_so_far = f;
       mode_so_far = v[i];
@@ -50,11 +51,14 @@ int mode(std::vector<int> v){
 
 int main(int argc, char *argv[])
 {
+    
   int size = std::atoi(argv[1]);
+
   srand(time(0));
+
   std::vector<int> v;
   v = build_vector(size);
-  //print_vector(v);
+  // print_vector(v);
   std::cout << mode(v) << "\n";
   return 0;
 }
