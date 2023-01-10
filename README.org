@@ -1,7 +1,7 @@
 * CSCI 13500 - Daedalus
 
 | Meets        | Monday Thursday 10:00 - 10:50 |
-| Room         | Hunter North 10001E |
+| Room         | Hunter North  C107 |
 | Instructor   | Mike Zamansky                                                              |
 | Email        | mz631@hunter.cuny.edu                                                      |
 | Office       | 1001K Hunter North                                                         |
