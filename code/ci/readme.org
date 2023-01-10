@@ -1,4 +1,0 @@
-
-* Link to repo with GitHub actions demo:
-
-- https://github.com/zamansky/cidemo
