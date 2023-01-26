@@ -30,7 +30,7 @@ the main 135 lecture page (see above).
 
 - Labs will be graded on a 0 - 10 scale.
 - Unless otherwise noted labs will be released Mondays after class and
-  will be due Friday of the same week at 8:00am.
+  will be due Friday of the same week at 7:00am.
 - Lab specifications are different for our recitation than for the
   other recitations. Specifics will be written in the lab
   assignments. 
