@@ -1,11 +1,6 @@
 #include <iostream>
 
-int add2(int a, int b) {
-  int c;
-  c = a + b;
-  return c;
-}
-
+int add2(int, int);
 
 int main()
 {
@@ -15,3 +10,4 @@ int main()
   std::cout << "5 + 8 = " << x << "\n";
   return 0;
 }
+
