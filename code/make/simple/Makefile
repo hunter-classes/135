@@ -1,8 +1,12 @@
-main: main.cpp
-	g++ -o main main.cpp
+main: main.o
+	g++ -o main main.o
 
+main.o: main.cpp
+	g++ -c main.cpp
+
+clean:
+	rm -f main.o 
 help:
-	@echo "This is a multi line"
-	@echo "help screen"
-	@echo "the @ means don't print the command line"
-
+	@echo "Targets: main"
+	@echo "         clean"
+	@echo "         help"
