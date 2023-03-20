@@ -1,0 +1,11 @@
+* Info on coverage tools
+** Tools
+- gcov - probably built in
+- sudo apt-get install lcov gcovr
+
+** To run
+add --coverage -g -O0 flags to compile lines
+gcov *cpp to generate coverage reports
+lcov -capture -directory . --output-file z.info
+genhtml z.info --output-directory od
+gcovr -r . --html --html-details -o cov.html
