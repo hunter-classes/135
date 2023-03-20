@@ -1,5 +1,9 @@
 a.out
 main
+tests
 *.o
 *~
 \#*
+*gcov
+*gcda
+*gcno
