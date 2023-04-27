@@ -19,6 +19,6 @@ tests.o: tests.cpp fact.h misc.h
 clean:
 	rm -f $(OBJECTS) main.o tests.o
 
-
+	
 
 
