@@ -7,5 +7,5 @@ main.o: main.cpp
 clean:
 	rm -f main.o
 
-debug: CXXFLAGS := $(CXXFLAGS)  -g 
+debug: CXXFLAGS := $(CXXFLAGS) -g 
 debug: main 
